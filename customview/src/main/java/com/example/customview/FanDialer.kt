@@ -43,14 +43,24 @@ class FanDialer @JvmOverloads constructor(
 
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
+
+        // Dial
         paint.color = if (fanSpeed == FanSpeed.OFF) Color.GRAY else Color.GREEN
-        canvas?.drawCircle(pointPosition.x, pointPosition.y, radius / 12, paint)
+        canvas?.drawCircle((width / 2).toFloat(), (height / 2).toFloat(), radius, paint)
+
+        // Labels
         val labelRadius = radius + RADIUS_OFFSET_LABEL
         for (i in FanSpeed.values()) {
             pointPosition.computeXYForSpeed(i, labelRadius)
             val label = resources.getString(i.label)
+            paint.color = Color.BLACK
             canvas?.drawText(label, pointPosition.x, pointPosition.y, paint)
         }
+        // Marker
+        val markerRadius = radius + RADIUS_OFFSET_INDICATOR
+        pointPosition.computeXYForSpeed(fanSpeed, markerRadius)
+        paint.color = Color.BLACK
+        canvas?.drawCircle(pointPosition.x, pointPosition.y, radius / 12, paint)
     }
 
     private fun PointF.computeXYForSpeed(pos: FanSpeed, radius: Float) {
