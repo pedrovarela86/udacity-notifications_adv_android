@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1063716501250",
+    "firebase_url": "https://fcm-notifications-7f110.firebaseio.com",
+    "project_id": "fcm-notifications-7f110",
+    "storage_bucket": "fcm-notifications-7f110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063716501250:android:cda86b1f58f00f04bbf41b",
+        "android_client_info": {
+          "package_name": "com.example.android.eggtimernotifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063716501250-6v13p7h06od4bjbh4gb81ck5i42gg0hn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.eggtimernotifications",
+            "certificate_hash": "61b052fb11b0b2cd80681bbe389cd2c195271287"
+          }
+        },
+        {
+          "client_id": "1063716501250-g5b9jo7jr4faaeete8fnohisu7pvm3dv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxGjodtg9aaQW0CVLey0LQ7Yh6EdnL-Ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063716501250-g5b9jo7jr4faaeete8fnohisu7pvm3dv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
