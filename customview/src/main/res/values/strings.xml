@@ -4,4 +4,12 @@
 	<string name="fan_low">1</string>
 	<string name="fan_medium">2</string>
 	<string name="fan_high">3</string>
+	<string name="fan_high1">4</string>
+	<string name="fan_high2">5</string>
+	<string name="fan_high3">6</string>
+	<string name="fan_high4">7</string>
+	<string name="fan_high5">8</string>
+	<string name="fan_high6">9</string>
+	<string name="fan_high7">10</string>
+	<string name="fan_high8">11</string>
 </resources>
