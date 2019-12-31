@@ -6,9 +6,12 @@
 	android:layout_height="match_parent"
 	tools:context=".MainActivity">
 	
-	<com.example.customview.FanDialer
+	<com.example.customview.DialView
 		android:layout_width="250dp"
 		android:layout_height="250dp"
+		app:fanColor1="#FFEB3B"
+		app:fanColor2="#CDDC39"
+		app:fanColor3="#009688"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent"
 		app:layout_constraintStart_toStartOf="parent"
