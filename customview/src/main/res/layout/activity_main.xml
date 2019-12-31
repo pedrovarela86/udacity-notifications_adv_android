@@ -7,8 +7,8 @@
 	tools:context=".MainActivity">
 	
 	<com.example.customview.DialView
-		android:layout_width="250dp"
-		android:layout_height="250dp"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
 		app:fanColor1="#FFEB3B"
 		app:fanColor2="#CDDC39"
 		app:fanColor3="#009688"
